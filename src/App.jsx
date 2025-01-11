@@ -221,7 +221,7 @@ function App() {
               ))}
             </div>
           </nav>
-          <div className="textcontainer w-full px-[20%] mt-7  opacity-90">
+          <div className="textcontainer w-full px-[20%] mt-7 mb-5 opacity-90">
             <div className="text w-[40%]">
               <h3 className="text-3xl leading-[1.3] ">
                 At Thirtysixstudio, we build immersive digital experiences for
@@ -235,10 +235,10 @@ function App() {
               <p className="text-md mt-6">Scroll</p>
             </div>
           </div>
-          <div className="w-full absolute left-0 bottom-0 mt-8">{/*pl-5  for my laptop and pl-12 for kiit*/}
+          <div className="w-full left-0 bottom-0">{/*pl-5  for my laptop and pl-12 for kiit*/}
             <h1 
             ref={headingref}
-            className="text-[12.6rem] font-normal tracking-tight leading-none opacity-90 pl-4 " style={{ letterSpacing: '0.03em' }}
+            className="text-[12rem] font-normal tracking-tight leading-none opacity-90 pl-4 " style={{ letterSpacing: '0.03em' }}
             >
               Thirtysixstudio
             </h1>
@@ -276,19 +276,19 @@ function App() {
         </div>
         <div ref={textRevealRef} className="text-reveal-container w-full px-[20%] mt-10">
           <div className="text">
-            <span className="line text-[1.85rem] leading-[2.5rem] block">
+            <span className="line text-[1.55rem] leading-[2.5rem] block">
               We provide captivating design,
             </span>
-            <span className="line text-[1.85rem] leading-[2.5rem] block">
+            <span className="line text-[1.55rem] leading-[2.5rem] block">
               interactive animations, advanced usability,
             </span>
-            <span className="line text-[1.85rem] leading-[2.5rem] block">
+            <span className="line text-[1.55rem] leading-[2.5rem] block">
               reliable code, and immaculate project coordination.
             </span>
-            <span className="line text-[1.85rem] leading-[2.5rem] block">
+            <span className="line text-[1.55rem] leading-[2.5rem] block">
               Whether you need a campaign built from scratch
             </span>
-            <span className="line text-[1.85rem] leading-[2.5rem] block">
+            <span className="line text-[1.55rem] leading-[2.5rem] block">
               or assistance at a specific phase, we’ve got you covered.
             </span>
           </div>
