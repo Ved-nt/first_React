@@ -173,7 +173,7 @@ export default [//it means that first screen will have 7 canvas
             numImages: 150,
             duration: 3,
             size: 100,
-            top: 2,
+            top: 5,
             left: 0,
             zIndex: 2,
         },
