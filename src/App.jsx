@@ -235,10 +235,10 @@ function App() {
               <p className="text-md mt-6">Scroll</p>
             </div>
           </div>
-          <div className="w-full left-0 bottom-0">{/*pl-5  for my laptop and pl-12 for kiit*/}
+          <div className="w-full absolute left-0 bottom-0">{/*pl-5  for my laptop and pl-12 for kiit*/}
             <h1 
             ref={headingref}
-            className="text-[12rem] font-normal tracking-tight leading-none opacity-90 pl-4 " style={{ letterSpacing: '0.03em' }}
+            className="text-[13.2rem] font-normal tracking-tight leading-none opacity-90 pl-4 " style={{ letterSpacing: '0.03em' }}
             >
               Thirtysixstudio
             </h1>
